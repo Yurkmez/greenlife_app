@@ -1,0 +1,11 @@
+.mainBody {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainBlock {
+    flex: 1 1 auto;
+}

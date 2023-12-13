@@ -1,0 +1,42 @@
+.mainBlock {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(179, 64, 64);
+    border: lightgrey solid 2px;
+    color: white;
+}
+.headerText {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.contactFlexExt {
+    display: flex;
+    justify-content: space-around;
+}
+.contactBlock {
+    width: 30%;
+    margin: 0 5px 5px 5px;
+    border: white solid 1px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.contactFlexIner {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.icons {
+    color: white;
+    font-size: 22px;
+    margin: 5px 7px 0 0;
+}
+
+.iconsText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 4px 0 0 0;
+    color: white;
+}

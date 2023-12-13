@@ -1,0 +1,18 @@
+.mainBlock {
+    margin-top: 140px;
+    margin-bottom: 40px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.short {
+    width: 40%;
+    margin-left: 0px;
+}
+
+.buttonStile {
+    width: 100px;
+    height: auto;
+    background-color: coral;
+}

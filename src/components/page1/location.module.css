@@ -1,0 +1,26 @@
+.headText {
+    margin-left: 40px;
+}
+.mainBox {
+    display: flex;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+}
+.blockIcons {
+    width: 30%;
+    text-align: center;
+}
+.blockIconsInline {
+    display: inline-block;
+}
+.blockMap {
+    display: block;
+    justify-content: center;
+    width: 70%;
+    margin-top: 10px;
+}
+.imageGoogle {
+    width: 82%;
+    display: block;
+    margin: auto;
+}

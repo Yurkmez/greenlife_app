@@ -1,0 +1,100 @@
+img {
+    vertical-align: middle;
+    align-items: baseline;
+}
+
+.mainBlock {
+    width: 70%;
+    margin: auto;
+    /* min-width: 435px; */
+}
+
+.headText {
+    margin-left: 40px;
+}
+.imageDemo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.imageDemoSize {
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    background-color: white;
+    top: 40%;
+    width: auto;
+    padding: 10px;
+    /* margin-top: -20px; */
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.prev {
+    margin-right: 3px;
+}
+.next {
+    right: 0;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: darkgray;
+}
+/* Text for Image */
+.imageDemoText {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* font-style: italic; */
+    font-size: 17px;
+    /* margin: auto; */
+    text-align: center;
+    /* background-color: grey; */
+    padding: 2px;
+    color: black;
+    margin: auto;
+}
+
+.sliderRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.sliderIcons {
+    margin-top: 10px;
+}
+
+.sliderIconLeft,
+.sliderIconRight {
+    font-size: 1.5rem;
+    color: darkslateblue;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.sliderIconRight:hover,
+.sliderIconLeft:hover {
+    background-color: darkgray;
+}
+
+.demo {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px darkslateblue;
+    overflow-x: hidden;
+}
+.demo:hover {
+    opacity: 1;
+}

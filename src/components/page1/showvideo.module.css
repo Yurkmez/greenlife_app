@@ -1,0 +1,30 @@
+/* Block Logo&Icons&Video */
+.blockLogoVideo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    z-index: -1;
+}
+.blockLogo {
+    width: 30%;
+}
+.sizeLogo {
+    width: 70%;
+}
+.titleText {
+    margin-left: 40px;
+}
+
+.blockVideo {
+    width: 70%;
+    margin: auto;
+}
+.blockVideo p {
+    text-align: center;
+}
+.sizeVideo {
+    width: 80%;
+    justify-content: center;
+}
